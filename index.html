@@ -29,9 +29,6 @@
   <link rel="stylesheet" href="clean.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
   <meta name="copyright" content="Copyright Abdurrahman © 2025" />
   <meta name="theme-color" content="#5f9ea0" />
   <meta name="application-name" content="Abdurrahman Hassan" />
@@ -41,6 +38,8 @@
   <meta name="msapplication-TileColor" content="#5f9ea0" />
   <meta name="msapplication-tap-highlight" content="no" />
   <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="preload" as="image" href="./assets/pfp.webp">
+  <link rel="preload" as="image" href="./assets/bg.webp">
 </head>
 
 
@@ -65,8 +64,8 @@
     <h1 class="mainheading">
       <span>Crafting User-Centric</span> <span>Web Solutions with</span>
       <span>Passion and Precision.</span>
-      <img src="./assets/star.png" alt="star" class="star" />
-      <img src="./assets/star.png" alt="star" class="star2" />
+      <img src="./assets/star.webp" alt="star" class="star" />
+      <img src="./assets/star.webp" alt="star" class="star2" />
     </h1>
     <a class="mainButton" href="#contact">
       <div class="absolutep">
@@ -78,7 +77,7 @@
     </a>
   </main>
   <section class="crousel">
-    <dotlottie-player src="./assets/XgkKwivcrI.lottie" background="transparent" speed="1" loop
+    <dotlottie-player id="my-lottie" src="./assets/XgkKwivcrI.lottie" background="transparent" speed="1" loop
       autoplay></dotlottie-player>
     <dotlottie-player src="./assets/XcQWXNg3kC.lottie" background="transparent" speed="1" loop
       autoplay></dotlottie-player>
@@ -123,7 +122,7 @@
     <p>Worked with several companies inculding local and international.</p>
     <div class="projectsGrid">
       <div class="workone">
-        <a class="projectinfo">
+        <a href="#" class="projectinfo">
           <h1>Teksyo <span>April 2024-current </span></h1>
           <span>Full-Stack Developer</span>
           <p>
@@ -133,7 +132,7 @@
         </a>
       </div>
       <div class="worktwo">
-        <a class="projectinfo">
+        <a href="#" class="projectinfo">
           <h1>TajirXpress <span>July 2023-April 2024</span></h1>
           <span>Full-Stack Developer</span>
           <p>
@@ -144,7 +143,7 @@
         </a>
       </div>
       <div class="workthree">
-        <a class="projectinfo">
+        <a href="#" class="projectinfo">
           <h1>Nonari Brothers <span>April 2023-June 2023</span></h1>
           <span>Full-Stack App Developer</span>
           <p>
@@ -153,7 +152,7 @@
         </a>
       </div>
       <div class="workfour">
-        <a class="projectinfo">
+        <a href="#" class="projectinfo">
           <h1>Al Quddus Geysers<span>Nov 2022-April 2023</span></h1>
           <span>Full-Stack Developer</span>
           <p>
@@ -173,7 +172,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/react.png" alt="React logo" />
+            <img class="image" src="./assets/react.webp" alt="React logo" />
             <div class="details">
               <p class="skillName">React</p>
               <p class="SkillAbout">2+ Years</p>
@@ -190,7 +189,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/node.png" style="background-color: #acff53" alt="Node.js logo" />
+            <img class="image" src="./assets/node.webp" style="background-color: #acff53" alt="Node.js logo" />
             <div class="details">
               <p class="skillName">Node.js</p>
               <p class="SkillAbout">2+ Years</p>
@@ -207,7 +206,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/ex.png" style="background-color: #393939" alt="Express.js logo" />
+            <img class="image" src="./assets/ex.webp" style="background-color: #393939" alt="Express.js logo" />
             <div class="details">
               <p class="skillName">Express.js</p>
               <p class="SkillAbout">2+ Years</p>
@@ -224,7 +223,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/mongo.png" style="background-color: #13aa52" alt="MongoDB logo" />
+            <img class="image" src="./assets/mongo.webp" style="background-color: #13aa52" alt="MongoDB logo" />
             <div class="details">
               <p class="skillName">MongoDB</p>
               <p class="SkillAbout">2+ Years</p>
@@ -242,7 +241,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/nextjs.png" style="background-color: white" alt="Next.js logo" />
+            <img class="image" src="./assets/nextjs.webp" style="background-color: white" alt="Next.js logo" />
             <div class="details">
               <p class="skillName">Next.js</p>
               <p class="SkillAbout">2+ Year</p>
@@ -259,7 +258,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/ts.png" style="background-color: #017acb" alt="TypeScript logo" />
+            <img class="image" src="./assets/ts.webp" style="background-color: #017acb" alt="TypeScript logo" />
             <div class="details">
               <p class="skillName">TypeScript</p>
               <p class="SkillAbout">&lt; 1 Year</p>
@@ -275,7 +274,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/sql.png" style="background-color: white" alt="SQL logo" />
+            <img class="image" src="./assets/sql.webp" style="background-color: white" alt="SQL logo" />
             <div class="details">
               <p class="skillName">SQL</p>
               <p class="SkillAbout">2+ Year</p>
@@ -292,7 +291,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/supa.png" style="background-color: white" alt="Supabase logo" />
+            <img class="image" src="./assets/supa.webp" style="background-color: white" alt="Supabase logo" />
             <div class="details">
               <p class="skillName">Supabase</p>
               <p class="SkillAbout">2+ Year</p>
@@ -308,7 +307,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/fire.png" style="background-color: white" alt="Firebase logo" />
+            <img class="image" src="./assets/fire.webp" style="background-color: white" alt="Firebase logo" />
             <div class="details">
               <p class="skillName">Firebase</p>
               <p class="SkillAbout">2+ Year</p>
@@ -323,7 +322,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/strapi.png" style="background-color: white" alt="Strapi logo" />
+            <img class="image" src="./assets/strapi.webp" style="background-color: white" alt="Strapi logo" />
             <div class="details">
               <p class="skillName">Strapi</p>
               <p class="SkillAbout">2+ Year</p>
@@ -338,7 +337,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/Sanity.png" style="background-color: white" alt="Sanity logo" />
+            <img class="image" src="./assets/Sanity.webp" style="background-color: white" alt="Sanity logo" />
             <div class="details">
               <p class="skillName">Sanity</p>
               <p class="SkillAbout">2+ Year</p>
@@ -353,7 +352,7 @@
       <div class="skillWrapper">
         <div class="skill">
           <div class="toppart">
-            <img class="image" src="./assets/wordpress.png" style="background-color: white" alt="wordpress logo" />
+            <img class="image" src="./assets/wordpress.webp" style="background-color: white" alt="wordpress logo" />
             <div class="details">
               <p class="skillName">Wordpress</p>
               <p class="SkillAbout">1+ Year</p>
@@ -403,7 +402,7 @@
   <section class="contact" id="contact">
     <div class="logowrapper">
       <div class="contactlogo">
-        <img src="./assets/contactLogo.png" alt="contact icon" />
+        <img src="./assets/contactLogo.webp" width="120px" height="auto" alt="contact icon" />
       </div>
     </div>
     <h1 class="contactheading1">Tell me about your next</h1>
@@ -432,8 +431,32 @@
   </footer>
 
   <script src="script.js" defer></script>
-  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" defer
-    type="module"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const script = document.createElement('script');
+              script.src = "https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs";
+              script.defer = true;
+              script.type = "module";
+              document.body.appendChild(script);
+              observer.disconnect();
+            }
+          });
+        });
+        const lottieElement = document.querySelector('#my-lottie'); // Update selector
+        if (lottieElement) {
+          observer.observe(lottieElement);
+        } else {
+          console.error('Lottie animation element not found.');
+        }
+      }
+    });
+  </script>
+
+
 
 </body>
 
